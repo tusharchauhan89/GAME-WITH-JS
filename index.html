@@ -4,25 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="animationddhdn.css">
-
+    <title>TIC TAC TOE </title>
+    <link rel="stylesheet" href="tictac.css">
 </head>
 
 <body>
-    <div class="login-container">
 
-        <form id="login-form">
-            <h2> <label for="username">Username:</label></h2>
-            <input type="text" id="username" name="username" required>
-            <h1><label for="password">Password:</label></h1>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
-        </form>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="New-btn">New Game</button>
     </div>
 
+    <div id="draw-message" class="hide">
+        <p id="draw">It's a draw!</p>
+    </div>
 
-    <script src="script.js"></script>
+    <main>
+        <h1>Tic Tac Toe</h1>
+
+        <div class="container">
+            <div class="game">
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+                <button class="box "></button>
+            </div>
+        </div>
+
+        <button id="reset">Reset Game</button>
+    </main>
+    <script src="tictac.js"></script>
 </body>
 
 </html>
