@@ -1,36 +1,39 @@
 # Tic-Tac-Toe
+
 A modern take on the classic Tic-Tac-Toe game. In this version, a person can play against the computer.
 
+---
 
-# Folder Structure
-Tic-Tac-Toe/
-├── index.html           # Homepage HTML
-├── tictac.css           # Styling for the game
-├── tictac.js            # JavaScript logic for the game
+### Folder Structure:
 
+Tic-Tac-Toe/ ├── index.html # Homepage HTML ├── tictac.css # Styling for the game ├── tictac.js
 
+---
 
-Game Objective: The goal is to get three marks in a row (horizontally, vertically, or diagonally) before the computer does.
-#Technologies Used:
-HTML for structure
-CSS for styling
-JavaScript for game logic
+### **Game Objective**:
+The goal is to get three marks in a row (horizontally, vertically, or diagonally) before the computer does.
 
-#How to Play
-Start the Game: Open index.html in a browser.
-Gameplay: Click on any cell to place your mark (X). The computer will respond with its move (O).
-Winning: The game ends when either the player or the computer gets three marks in a row.
+---
 
+### **Technologies Used**:
+- **HTML** for structure
+- **CSS** for styling
+- **JavaScript** for game logic
 
-Installation
-Clone this repository:
-```
-git clone https://github.com/tusharchauhan89/GAME-WITH-JS.git
-```
-Navigate to the folder:
-```
+---
+
+### **How to Play**:
+- **Start the Game**: Open `index.html` in a browser.
+- **Gameplay**: Click on any cell to place your mark (X). The computer will respond with its move (O).
+- **Winning**: The game ends when either the player or the computer gets three marks in a row.
+
+---
+
+### **Installation**:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/tusharchauhan89/GAME-WITH-JS.git
+```Navigate to the Folder:
 cd GAME-WITH-JS
 ```
-Open index.html in your browser to play the game
-
-
+Open `index.html` in your browser to play the game
